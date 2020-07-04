@@ -16,6 +16,7 @@ const App = () => {
   <Slider6/>
   <Slider7/>
   <Slider8/>
+  <Slider9/>
   <Footer/>
   
 </div>
@@ -26,7 +27,7 @@ const Slider1 = () => {
     <div className="container">
     <div className= "gallery">
       <img src="images/book2.jpeg"></img>
-      <div className="desc">Book1 <br></br>Lorem ispum dolor sit amet,consectetur adipiscing elit.</div>
+      <div className="desc">Book 01 <br></br><br></br>“A room without books is like a body without a soul.” ..</div>
     </div>
 </div>
   );
@@ -37,7 +38,7 @@ const Slider2 = () => {
     <div className="container">
     <div className= "gallery">
       <img src="images/book2.jpeg"></img>
-      <div className="desc">Book2 <br></br>Lorem ispum dolor sit amet,consectetur adipiscing elit.</div>
+      <div className="desc">Book 02 <br></br><br></br>“A room without books is like a body without a soul.” .</div>
     </div>
 </div>
   );
@@ -48,7 +49,7 @@ const Slider3 = () => {
     <div className="container">
     <div className= "gallery">
       <img src="images/book2.jpeg"></img>
-      <div className="desc">Book3 <br></br>Lorem ispum dolor sit amet,consectetur adipiscing elit.</div>
+      <div className="desc">Book 03 <br></br><br></br>“A room without books is like a body without a soul.” ..</div>
     </div>
 </div>
   );
@@ -59,7 +60,7 @@ const Slider4 = () => {
     <div className="container">
     <div className= "gallery">
       <img src="images/book2.jpeg"></img>
-      <div className="desc">Book4 <br></br>Lorem ispum dolor sit amet,consectetur adipiscing elit.</div>
+      <div className="desc">Book 04 <br></br><br></br>“A room without books is like a body without a soul.” .</div>
     </div>
 </div>
   );
@@ -70,7 +71,7 @@ const Slider5 = () => {
     <div className="container">
     <div className= "gallery">
       <img src="images/book2.jpeg"></img>
-      <div className="desc">Book5 <br></br>Lorem ispum dolor sit amet,consectetur adipiscing elit.</div>
+      <div className="desc">Book 05 <br></br><br></br>“A room without books is like a body without a soul.” .</div>
     </div>
 </div>
   );
@@ -81,7 +82,7 @@ const Slider6 = () => {
     <div className="container">
     <div className= "gallery">
       <img src="images/book2.jpeg"></img>
-      <div className="desc">Book6 <br></br>Lorem ispum dolor sit amet,consectetur adipiscing elit.</div>
+      <div className="desc">Book 06 <br></br><br></br>“A room without books is like a body without a soul.” .</div>
     </div>
 </div>
   );
@@ -92,7 +93,7 @@ const Slider7 = () => {
     <div className="container">
     <div className= "gallery">
       <img src="images/book2.jpeg"></img>
-      <div className="desc"> Book7 <br></br>Lorem ispum dolor sit amet,consectetur adipiscing elit.</div>
+      <div className="desc"> Book 07 <br></br><br></br>“A room without books is like a body without a soul.” ..</div>
     </div>
 </div>
   );
@@ -103,20 +104,32 @@ const Slider8 = () => {
     <div className="container">
     <div className= "gallery">
       <img src="images/book2.jpeg"></img>
-      <div className="desc">Book8 <br></br>Lorem ispum dolor sit amet,consectetur adipiscing elit.</div>
+      <div className="desc">Book 08 <br></br><br></br>“A room without books is like a body without a soul.” </div>
+    </div>
+</div>
+  );
+};
+
+const Slider9 = () => {
+  return (
+    <div className="container">
+    <div className= "gallery">
+      <img src="images/book2.jpeg"></img>
+      <div className="desc">Book 09 <br></br><br></br>“A room without books is like a body without a soul.” .</div>
     </div>
 </div>
   );
 };
 
 
+
 const Footer = () => {
-  return(
-    <div>
-      <h1 className ="footer-title">ALL RIGHTS RESERVED!!!</h1>
-    </div>
-  );
-};
+   return(
+     <div className="footer-title">
+       <h2 className="footer">All rights reserved</h2>
+   </div>
+   );
+ };
 
 
 
